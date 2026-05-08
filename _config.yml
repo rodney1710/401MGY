@@ -1,0 +1,19 @@
+title: 401MGY
+description: A Belfast voice on an Irish ship
+url: "https://www.401mgy.com"
+author: Rodney
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
