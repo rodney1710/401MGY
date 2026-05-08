@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="intro-block">
+  <p class="intro-label">From the author</p>
+  <p class="intro-text">{{ site.author_intro }}</p>
+  <a href="{{ '/about' | relative_url }}" class="intro-link">Read the full story →</a>
+</div>
+
+<p class="section-label">Latest</p>
+
+<div class="post-list">
+  {% for post in site.posts %}
+  <article class="post-item">
+    <p class="post-series">{{ post.series }}</p>
+    <a href="{{ post.url | relative_url }}" class="post-title">
+      <h2>{{ post.title }}</h2>
+    </a>
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <p class="post-meta">{{ post.date | date: "%B %Y" }} · {{ post.read_time }} min read</p>
+  </article>
+  {% endfor %}
+</div>
