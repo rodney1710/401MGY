@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="post-header">
+  <p class="post-series">{{ page.series }}</p>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta">{{ page.date | date: "%B %d, %Y" }} · {{ page.read_time }} min read</p>
+</div>
+
+<div class="post-content">
+  {{ content }}
+</div>
