@@ -1,0 +1,244 @@
+---
+---
+
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/cormorant@5.0.17/index.css');
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/dm-sans@5.0.18/index.css');
+
+$navy: #0D1B2E;
+$gold: #C9A84C;
+$cream: #FAF7F2;
+$dark: #1C1A18;
+$muted: #5A5550;
+$border: #D4C5B0;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: $cream;
+  color: $dark;
+}
+
+/* HEADER */
+.site-header {
+  background: $navy;
+  padding: 2.5rem 2rem 0;
+  text-align: center;
+}
+
+.site-masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.site-title {
+  font-family: 'Cormorant', serif;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: $cream;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.gold-stripe {
+  width: 100%;
+  height: 2px;
+  background: $gold;
+  margin: 0.75rem 0;
+}
+
+.site-header-lower {
+  padding: 0 2rem 2rem;
+}
+
+.site-description {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 0.5px solid rgba(201,168,76,0.25);
+  padding-top: 1.25rem;
+
+  a {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(250,247,242,0.65);
+    text-decoration: none;
+    padding: 0 1rem;
+    border-right: 0.5px solid rgba(201,168,76,0.2);
+    font-weight: 300;
+
+    &:last-child { border-right: none; }
+    &:hover { color: $gold; }
+  }
+}
+
+/* BODY */
+.page-content {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* INTRO BLOCK */
+.intro-block {
+  border-left: 2px solid $gold;
+  padding-left: 1.25rem;
+  margin-bottom: 3rem;
+
+  .intro-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $gold;
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+  }
+
+  .intro-text {
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+
+  .intro-link {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $navy;
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: 0.5px solid $gold;
+    padding-bottom: 1px;
+  }
+}
+
+/* SECTION LABEL */
+.section-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: $border;
+  }
+}
+
+/* ARTICLES */
+.post-list .post-item {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.5px solid $border;
+
+  &:last-child { border-bottom: none; }
+}
+
+.post-series {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 0.4rem;
+  font-weight: 400;
+}
+
+.post-title {
+  font-family: 'Cormorant', serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.65rem;
+  color: $dark;
+  text-decoration: none;
+
+  &:hover { color: $navy; }
+}
+
+.post-excerpt {
+  font-size: 14px;
+  line-height: 1.75;
+  color: $muted;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+}
+
+.post-meta {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9C9490;
+  font-weight: 300;
+}
+
+/* SINGLE POST */
+.post-header {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.5px solid $border;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: $dark;
+  font-weight: 300;
+
+  h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 2rem 0 1rem;
+  }
+
+  p { margin-bottom: 1.5rem; }
+
+  blockquote {
+    border-left: 2px solid $gold;
+    padding-left: 1.25rem;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 2rem 0;
+    color: $muted;
+  }
+}
+
+/* FOOTER */
+.site-footer {
+  background: $navy;
+  text-align: center;
+  padding: 1.5rem;
+
+  p {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(201,168,76,0.5);
+    font-weight: 300;
+  }
+}
