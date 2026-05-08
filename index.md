@@ -1,6 +1,4 @@
 ---
 layout: home
-title: 401MGY
+title: Home
 ---
-
-Welcome to 401MGY
