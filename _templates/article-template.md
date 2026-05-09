@@ -4,10 +4,15 @@ title: "Your Title Here"
 series: "Hull 401"
 pinned: true
 read_time: 10
-excerpt: "A one or two sentence summary of what this article covers."
 ---
 
 An authoritative opening paragraph that establishes what this article covers and why it matters.
+
+[Images]
+<figure>
+  <img src="/assets/images/your-image.jpg" alt="Description">
+  <figcaption>Your caption here</figcaption>
+</figure>
 
 ## Background
 
