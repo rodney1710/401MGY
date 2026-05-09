@@ -378,3 +378,137 @@ figcaption {
 
   &:hover { color: $gold; }
 }
+
+/* WIRELESS LOG */
+.wireless-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.wireless-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.5px solid $border;
+}
+
+.wireless-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.wireless-title {
+  font-family: 'Cormorant', serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.wireless-intro {
+  font-size: 14px;
+  line-height: 1.75;
+  color: $muted;
+  font-weight: 300;
+}
+
+.wireless-section-header {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $gold;
+  margin: 2rem 0 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: $border;
+  }
+}
+
+.wireless-log {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 2rem;
+}
+
+.transmission {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 0.5px solid $border;
+  align-items: start;
+
+  &:last-child { border-bottom: none; }
+}
+
+.tx-time {
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: $dark;
+  padding-top: 2px;
+}
+
+.tx-route {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 0.35rem;
+  font-weight: 400;
+}
+
+.tx-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: $dark;
+  font-weight: 300;
+}
+
+.tx-note {
+  font-size: 11px;
+  color: $muted;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+.tx-audio {
+  margin-top: 0.75rem;
+  width: 100%;
+  height: 32px;
+}
+
+.transmission.warning .tx-time { color: $gold; }
+.transmission.critical .tx-time { color: #C8102E; }
+.transmission.final .tx-time { color: $muted; }
+.transmission.sunk {
+  background: $navy;
+  padding: 1rem;
+  margin-top: 1rem;
+
+  .tx-time { color: $gold; }
+  .tx-route { color: rgba(201,168,76,0.6); }
+  .tx-text { color: $cream; }
+}
+
+.wireless-source {
+  font-size: 11px;
+  color: $muted;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 0.5px solid $border;
+}
