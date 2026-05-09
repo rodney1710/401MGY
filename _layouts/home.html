@@ -29,7 +29,7 @@ layout: default
 <p class="section-label">Latest Articles</p>
 
 <div class="post-list">
-  {% for article in site.articles limit:5 %}
+  {% for article in site.articles limit: %}
   <article class="post-item">
     <p class="post-series">{{ article.series }}</p>
     <a href="{{ article.url | relative_url }}" class="post-title">
@@ -43,7 +43,7 @@ layout: default
 <p class="section-label">From the Blog</p>
 
 <div class="post-list">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit: %}
   <article class="post-item">
     <p class="post-series">{{ post.series }}</p>
     <a href="{{ post.url | relative_url }}" class="post-title">
