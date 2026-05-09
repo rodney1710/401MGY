@@ -15,3 +15,9 @@
   year: 1912
   event: "At 11:40pm ship's time, Titanic strikes the iceberg"
   category: "The Sinking"
+
+- month: 5
+  day: 15
+  year: 1912
+  event: "New York held the funeral of First Class Passenger Isidor Straus."
+  category: "Aftermath"
