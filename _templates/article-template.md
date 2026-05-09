@@ -2,6 +2,7 @@
 layout: post
 title: "Your Title Here"
 series: "Hull 401"
+pinned: true
 read_time: 10
 excerpt: "A one or two sentence summary of what this article covers."
 ---
