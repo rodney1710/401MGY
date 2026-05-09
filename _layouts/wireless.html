@@ -276,3 +276,45 @@
         <div class="tx-time">2:17am</div>
         <div class="tx-content">
           <div class="tx-route">MGY → All</div>
+          <div class="tx-text">Virginian hears Titanic call CQ. Signals end very abruptly as power suddenly switched off. Spark blurred and ragged. No further response from MGY.</div>
+          <div class="tx-note">Final transmission from MGY.</div>
+          <div class="tx-source">Source: British Wreck Commissioner's Inquiry — Testimony of Virginian wireless operator</div>
+        </div>
+      </div>
+
+      <div class="transmission sunk">
+        <div class="tx-time">2:20am</div>
+        <div class="tx-content">
+          <div class="tx-route">—</div>
+          <div class="tx-text">Titanic founders. 41.46N 50.14W. 1,503 souls lost.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wireless-source">
+      Sources: United States Senate Inquiry, 1912 · British Wreck Commissioner's Inquiry, 1912 · Titanic Inquiry Project (titanicinquiry.org) · Audio reconstructions generated from verified transcript text.
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>401-MGY · Built in Belfast · Lost at 41°46′N 50°14′W</p>
+  </footer>
+
+  <script>
+    const players = document.querySelectorAll('audio');
+    players.forEach(player => {
+      player.addEventListener('play', () => {
+        players.forEach(other => {
+          if (other !== player) {
+            other.pause();
+            other.currentTime = 0;
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
