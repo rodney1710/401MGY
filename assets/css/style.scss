@@ -353,3 +353,16 @@ figcaption {
   margin-top: 0.5rem;
   font-weight: 300;
 }
+
+.read-more {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $navy;
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 0.5px solid $gold;
+  padding-bottom: 1px;
+
+  &:hover { color: $gold; }
+}
