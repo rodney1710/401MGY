@@ -5,7 +5,6 @@ date: 2026-05-09
 series: "about"
 pinned: true
 read_time: 5
-excerpt: "Why 401-MGY?"
 ---
 
 Throughout her design, construction, short life and particularly following her loss; Titanic has become known as many things to many people. 
