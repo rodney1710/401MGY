@@ -1,0 +1,17 @@
+- month: 1
+  day: 1
+  year: 1912
+  event: "White Star Line confirms Titanic's maiden voyage date as April 10th 1912"
+  category: "Voyage"
+
+- month: 4
+  day: 10
+  year: 1912
+  event: "Titanic departs Southampton at noon on her maiden voyage"
+  category: "Voyage"
+
+- month: 4
+  day: 14
+  year: 1912
+  event: "At 11:40pm ship's time, Titanic strikes the iceberg"
+  category: "The Sinking"
