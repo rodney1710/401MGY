@@ -3,6 +3,7 @@ layout: post
 title: "Your Title Here"
 date: YYYY-MM-DD
 series: "Hull 401"
+pinned: true
 read_time: 5
 excerpt: "A one or two sentence summary of the post that appears on the homepage."
 ---
