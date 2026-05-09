@@ -249,3 +249,44 @@ body {
     font-weight: 300;
   }
 }
+
+.morse-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0.75rem 0;
+  gap: 0;
+}
+
+.morse-line-solid {
+  flex: 1;
+  height: 2px;
+  background: #C9A84C;
+}
+
+.morse-code {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 20px;
+}
+
+.dash {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #C9A84C;
+}
+
+.dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #C9A84C;
+}
+
+.letter-gap {
+  display: block;
+  width: 10px;
+}
