@@ -331,3 +331,25 @@ body {
   color: $gold;
   font-weight: 300;
 }
+
+/* IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9C9490;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
