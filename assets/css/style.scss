@@ -290,3 +290,44 @@ body {
   display: block;
   width: 10px;
 }
+
+/* ON THIS DAY */
+.on-this-day {
+  border: 0.5px solid $gold;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.otd-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.otd-date {
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  color: $dark;
+}
+
+.otd-event {
+  font-size: 15px;
+  line-height: 1.7;
+  color: $muted;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+
+.otd-category {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $gold;
+  font-weight: 300;
+}
