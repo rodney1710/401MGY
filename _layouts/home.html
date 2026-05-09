@@ -24,31 +24,31 @@ layout: default
 
 <p class="section-label">Latest Articles</p>
 
-<div class="post-list">
+<div class="post-grid">
   {% for article in site.articles %}
-<article class="post-item">
-  <p class="post-series">{{ article.series }}</p>
-  <a href="{{ article.url | relative_url }}" class="post-title">
-    <h2>{{ article.title }}</h2>
-  </a>
-  <p class="post-excerpt">{{ article.excerpt | strip_html | truncatewords: 30 }}</p>
-  <a href="{{ article.url | relative_url }}" class="read-more">Read more →</a>
-</article>
+  <article class="post-item">
+    <p class="post-series">{{ article.series }}</p>
+    <a href="{{ article.url | relative_url }}" class="post-title">
+      <h2>{{ article.title }}</h2>
+    </a>
+    <p class="post-excerpt">{{ article.excerpt | strip_html | truncatewords: 30 }}</p>
+    <a href="{{ article.url | relative_url }}" class="read-more">Read more →</a>
+  </article>
   {% endfor %}
 </div>
 
 <p class="section-label">From the Blog</p>
 
-<div class="post-list">
+<div class="post-grid">
   {% for post in site.posts %}
-<article class="post-item">
-  <p class="post-series">{{ post.series }}</p>
-  <a href="{{ post.url | relative_url }}" class="post-title">
-    <h2>{{ post.title }}</h2>
-  </a>
-  <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-  <p class="post-meta">{{ post.date | date: "%B %Y" }} · {{ post.read_time }} min read</p>
-  <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-</article>
+  <article class="post-item">
+    <p class="post-series">{{ post.series }}</p>
+    <a href="{{ post.url | relative_url }}" class="post-title">
+      <h2>{{ post.title }}</h2>
+    </a>
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    <p class="post-meta">{{ post.date | date: "%B %Y" }} · {{ post.read_time }} min read</p>
+    <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+  </article>
   {% endfor %}
 </div>
