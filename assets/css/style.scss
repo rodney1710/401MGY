@@ -530,3 +530,11 @@ figcaption {
     color: $gold;
   }
 }
+
+.tx-source {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: $border;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
