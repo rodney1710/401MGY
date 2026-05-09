@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<p style="color:red">Month: {{ site.time | date: "%-m" }} Day: {{ site.time | date: "%-d" }}</p>
+<p style="color:red">Entries: {{ site.data.onthisday | size }}</p>
+
+---
+layout: default
+---
+
 {% assign today_month = site.time | date: "%-m" | plus: 0 %}
 {% assign today_day = site.time | date: "%-d" | plus: 0 %}
 {% assign todays_events = site.data.onthisday | where: "month", today_month | where: "day", today_day %}
