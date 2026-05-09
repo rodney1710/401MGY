@@ -17,3 +17,8 @@ defaults:
       type: posts
     values:
       layout: post
+
+      collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
