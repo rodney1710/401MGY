@@ -3,8 +3,6 @@ description: The story of Titanic
 url: "https://www.401mgy.com"
 author: Rodney
 
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
