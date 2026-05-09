@@ -2,12 +2,9 @@
 layout: default
 ---
 
-<p style="color:red">Month: {{ site.time | date: "%-m" }} Day: {{ site.time | date: "%-d" }}</p>
-<p style="color:red">Entries: {{ site.data.onthisday | size }}</p>
-
----
-layout: default
----
+{% for entry in site.data.onthisday %}
+<p style="color:red">{{ entry.month }}-{{ entry.day }}: {{ entry.event }}</p>
+{% endfor %}
 
 {% assign today_month = site.time | date: "%-m" | plus: 0 %}
 {% assign today_day = site.time | date: "%-d" | plus: 0 %}
@@ -32,7 +29,7 @@ layout: default
 <p class="section-label">Latest Articles</p>
 
 <div class="post-list">
-  {% for article in site.articles limit: %}
+  {% for article in site.articles %}
   <article class="post-item">
     <p class="post-series">{{ article.series }}</p>
     <a href="{{ article.url | relative_url }}" class="post-title">
@@ -46,7 +43,7 @@ layout: default
 <p class="section-label">From the Blog</p>
 
 <div class="post-list">
-  {% for post in site.posts limit: %}
+  {% for post in site.posts %}
   <article class="post-item">
     <p class="post-series">{{ post.series }}</p>
     <a href="{{ post.url | relative_url }}" class="post-title">
