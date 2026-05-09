@@ -2,6 +2,24 @@
 layout: default
 ---
 
+{% assign today = site.time | date: "%-m-%-d" %}
+{% assign todays_event = nil %}
+{% for entry in site.data.onthisday %}
+  {% assign entry_date = entry.month | append: "-" | append: entry.day %}
+  {% if entry_date == today %}
+    {% assign todays_event = entry %}
+  {% endif %}
+{% endfor %}
+
+{% if todays_event %}
+<div class="on-this-day">
+  <p class="otd-label">Titanic · On This Day</p>
+  <p class="otd-date">{{ todays_event.day }} {{ site.time | date: "%B" }} {{ todays_event.year }}</p>
+  <p class="otd-event">{{ todays_event.event }}</p>
+  <span class="otd-category">{{ todays_event.category }}</span>
+</div>
+{% endif %}
+
 <div class="intro-block">
   <p class="intro-label">From the author</p>
   <p class="intro-text">{{ site.author_intro }}</p>
