@@ -7,23 +7,24 @@ layout: default
 {% assign todays_events = site.data.onthisday | where: "month", today_month | where: "day", today_day %}
 {% assign todays_event = todays_events | first %}
 
-{% if todays_event %}
-<div class="on-this-day">
-  <p class="otd-label">Titanic · On This Day</p>
-  <p class="otd-date">{{ todays_event.day }} {{ site.time | date: "%B" }} {{ todays_event.year }}</p>
-  <p class="otd-event">{{ todays_event.event }}</p>
-  <span class="otd-category">{{ todays_event.category }}</span>
-</div>
-{% endif %}
+<div class="intro-otd-row">
+  <div class="intro-block">
+    <p class="intro-label">From the author</p>
+    <p class="intro-text">{{ site.author_intro }}</p>
+    <a href="{{ '/about' | relative_url }}" class="intro-link">Read the full story →</a>
+  </div>
 
-<div class="intro-block">
-  <p class="intro-label">From the author</p>
-  <p class="intro-text">{{ site.author_intro }}</p>
-  <a href="{{ '/about' | relative_url }}" class="intro-link">Read the full story →</a>
+  {% if todays_event %}
+  <div class="on-this-day">
+    <p class="otd-label">Titanic · On This Day</p>
+    <p class="otd-date">{{ todays_event.day }} {{ site.time | date: "%B" }} {{ todays_event.year }}</p>
+    <p class="otd-event">{{ todays_event.event }}</p>
+    <span class="otd-category">{{ todays_event.category }}</span>
+  </div>
+  {% endif %}
 </div>
 
 <p class="section-label">Latest Articles</p>
-
 <div class="post-grid">
   {% for article in site.articles %}
   <article class="post-item">
@@ -38,7 +39,6 @@ layout: default
 </div>
 
 <p class="section-label">From the Blog</p>
-
 <div class="post-grid">
   {% for post in site.posts %}
   <article class="post-item">
