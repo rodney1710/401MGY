@@ -297,10 +297,17 @@ body {
 }
 
 /* ON THIS DAY */
+.intro-otd-row {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: start;
+}
+
 .on-this-day {
   border: 0.5px solid $gold;
-  padding: 1.5rem;
-  margin-bottom: 3rem;
+  padding: 1.25rem;
   text-align: center;
 }
 
@@ -322,7 +329,7 @@ body {
 }
 
 .otd-event {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.7;
   color: $muted;
   font-weight: 300;
