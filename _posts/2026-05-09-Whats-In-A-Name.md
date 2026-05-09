@@ -39,7 +39,7 @@ Throughout her maiden voyage, Titanic spoke to the world through her Marconi Wir
 
 <figure>
   <img src="/assets/images/MGY-Telegram.jpg" alt="Description" style="width:75%">
-  <figcaption>Titanic distress message received by the Russian liner, Birma on following the collision signed off with the callsigh, 'MGY' (The National Archives, Catalogue ref: MT 9/920C</figcaption>
+  <figcaption>Titanic Marconi distress message received by the Russian liner, Birma following the collision - signed off with the callsigh, 'MGY' (The National Archives, Catalogue ref: MT 9/920C</figcaption>
 </figure>
 
 ## Why 401-MGY?
