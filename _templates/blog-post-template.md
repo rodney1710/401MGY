@@ -5,10 +5,15 @@ date: YYYY-MM-DD
 series: "Hull 401"
 pinned: true
 read_time: 5
-excerpt: "A one or two sentence summary of the post that appears on the homepage."
 ---
 
 Opening paragraph here. This is what draws the reader in — make it count.
+
+[Images]
+<figure>
+  <img src="/assets/images/your-image.jpg" alt="Description">
+  <figcaption>Your caption here</figcaption>
+</figure>
 
 ## First Section Heading
 
