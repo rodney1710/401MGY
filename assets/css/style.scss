@@ -512,3 +512,21 @@ figcaption {
   padding-top: 2rem;
   border-top: 0.5px solid $border;
 }
+
+.wireless-btn {
+  display: inline-block;
+  border: 0.5px solid $gold;
+  padding: 0.75rem 1.5rem;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $navy;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  font-weight: 400;
+
+  &:hover {
+    background: $navy;
+    color: $gold;
+  }
+}
