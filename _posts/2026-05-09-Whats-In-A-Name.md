@@ -15,7 +15,7 @@ Reflecting both her immense size, safety, and in hindsight our own hubris, she b
 Companies wanted in on the act too, and went to great lengths to associate their brand with the Olympic Class liners and their names.
 
 <figure>
-  <img src="/assets/images/Titanic-Advert-Company.jpg" alt="Description">
+  <img src="/assets/images/Titanic-Advert-Company.jpg" alt="Description" style="width:50%">
   <figcaption>Companies widely advertised how their products were fitted to the Olympic Class Liners, as can be seen here in a trade magazine piece by Welin (Sourced from Dr Paul Lee https://www.paullee.com/titanic/Adverts/index.php)</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ The Board of Trade gave her the official number of 131428; a number that resonat
 To the 15,000 men who designed and built her in Belfast, from the moment her keel was laid in March 1909 until she departed for Southampton in April 1912, she was '401'; her Harland and Wolff Hull Number. A number that can still be seen stamped on her propeller blades two miles below the North Atlantic today.
 
 <figure>
-  <img src="/assets/images/Titanic-401-Prop.jpg" alt="Description">
+  <img src="/assets/images/Titanic-401-Prop.jpg" alt="Description" style="width:50%">
   <figcaption>Titanic's propellers with her Hull Number '401' still clearly visible</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ To the 15,000 men who designed and built her in Belfast, from the moment her kee
 Throughout her maiden voyage, Titanic spoke to the world through her Marconi Wireless, carrying the callsign "MGY". From the congratulations from fellow vessels crossing the North Atlantic, to routine messages from passengers reassuring loved ones of an early arrival in New York, to the ice warnings, and finally the desperate distress signals transmitted into the freezing Atlantic night on 15 April 1912, she was "MGY", and remained so until the end.
 
 <figure>
-  <img src="/assets/images/MGY-Telegram.jpg" alt="Description">
+  <img src="/assets/images/MGY-Telegram.jpg" alt="Description" style="width:50%">
   <figcaption>Titanic distress message received by the Russian liner, Birma on following the collision signed off with the callsigh, 'MGY' (The National Archives, Catalogue ref: MT 9/920C</figcaption>
 </figure>
 
