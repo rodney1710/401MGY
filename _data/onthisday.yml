@@ -1,8 +1,4 @@
-- month: 1
-  day: 1
-  year: 1912
-  event: "White Star Line confirms Titanic's maiden voyage date as April 10th 1912"
-  category: "Voyage"
+# --- Voyage ---
 
 - month: 4
   day: 10
@@ -11,13 +7,133 @@
   category: "Voyage"
 
 - month: 4
+  day: 11
+  year: 1912
+  event: "Titanic departs Queenstown (Cobh), beginning her transatlantic crossing"
+  category: "Voyage"
+
+- month: 4
   day: 14
   year: 1912
-  event: "At 11:40pm ship's time, Titanic strikes the iceberg"
-  category: "The Sinking"
+  event: "Multiple ice warnings received from nearby ships via wireless"
+  category: "Voyage"
+
+- month: 4
+  day: 14
+  year: 1912
+  event: "Titanic strikes an iceberg at approximately 11:40 PM"
+  category: "Disaster"
+
+- month: 4
+  day: 15
+  year: 1912
+  event: "Titanic sinks at approximately 2:20 AM"
+  category: "Disaster"
+
+- month: 4
+  day: 15
+  year: 1912
+  event: "RMS Carpathia rescues survivors"
+  category: "Rescue"
+
+
+# --- US Inquiry (Key Testimony Days) ---
+
+- month: 4
+  day: 17
+  year: 1912
+  event: "U.S. Senate formally authorises investigation into Titanic disaster"
+  category: "US Inquiry"
+
+- month: 4
+  day: 19
+  year: 1912
+  event: "United States Inquiry begins; J. Bruce Ismay and Captain Arthur Rostron give early testimony"
+  category: "US Inquiry"  # [1](https://polarisprivacy-my.sharepoint.com/personal/rodneyburns_polarisprivacy_onmicrosoft_com/Documents/Microsoft%20Copilot%20Chat%20Files/BritishBOTInquiry1912.pdf)
+
+- month: 4
+  day: 19
+  year: 1912
+  event: "Wireless operations examined; Marconi and operator evidence discussed"
+  category: "US Inquiry"  # [1](https://polarisprivacy-my.sharepoint.com/personal/rodneyburns_polarisprivacy_onmicrosoft_com/Documents/Microsoft%20Copilot%20Chat%20Files/BritishBOTInquiry1912.pdf)
+
+- month: 4
+  day: 20
+  year: 1912
+  event: "Second Officer Charles Lightoller gives detailed testimony on lifeboats and evacuation"
+  category: "US Inquiry"  # [1](https://polarisprivacy-my.sharepoint.com/personal/rodneyburns_polarisprivacy_onmicrosoft_com/Documents/Microsoft%20Copilot%20Chat%20Files/BritishBOTInquiry1912.pdf)
+
+- month: 4
+  day: 21
+  year: 1912
+  event: "Crew and lookout testimony continues, including evidence on iceberg sighting conditions"
+  category: "US Inquiry"
+
+- month: 4
+  day: 23
+  year: 1912
+  event: "Testimony examines speed, ice warnings, and decision-making on bridge"
+  category: "US Inquiry"
+
+- month: 4
+  day: 25
+  year: 1912
+  event: "Californian crew and Captain Stanley Lord testimony raises controversy over nearby ship response"
+  category: "US Inquiry"  # [1](https://polarisprivacy-my.sharepoint.com/personal/rodneyburns_polarisprivacy_onmicrosoft_com/Documents/Microsoft%20Copilot%20Chat%20Files/BritishBOTInquiry1912.pdf)
+
+- month: 4
+  day: 30
+  year: 1912
+  event: "Further survivor testimony highlights lifeboat underloading and evacuation sequence"
+  category: "US Inquiry"
 
 - month: 5
-  day: 9
+  day: 10
   year: 1912
-  event: "New York held the funeral of First Class Passenger Isidor Straus."
-  category: "Aftermath"
+  event: "Inquiry reviews safety regulations including lifeboat requirements and wireless coverage"
+  category: "US Inquiry"
+
+- month: 5
+  day: 25
+  year: 1912
+  event: "United States Inquiry hearings conclude"
+  category: "US Inquiry"  # [1](https://polarisprivacy-my.sharepoint.com/personal/rodneyburns_polarisprivacy_onmicrosoft_com/Documents/Microsoft%20Copilot%20Chat%20Files/BritishBOTInquiry1912.pdf)
+
+- month: 5
+  day: 28
+  year: 1912
+  event: "U.S. Senate publishes final report on Titanic disaster"
+  category: "US Inquiry"
+
+
+# --- British Inquiry (Key Milestones & Focus Days) ---
+
+- month: 5
+  day: 2
+  year: 1912
+  event: "British Wreck Commissioner's Inquiry opens in London under Lord Mersey"
+  category: "British Inquiry"
+
+- month: 5
+  day: 6
+  year: 1912
+  event: "Senior surviving officers including Lightoller give evidence to British Inquiry"
+  category: "British Inquiry"
+
+- month: 5
+  day: 14
+  year: 1912
+  event: "Harland & Wolff representatives give technical evidence on ship design and compartments"
+  category: "British Inquiry"
+
+- month: 6
+  day: 12
+  year: 1912
+  event: "Evidence focuses on speed, ice navigation practices, and lookout procedures"
+  category: "British Inquiry"
+
+- month: 7
+  day: 30
+  year: 1912
+  event: "British Inquiry report released, recommending major maritime safety reforms"
+  category: "British Inquiry"
